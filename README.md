@@ -9,7 +9,7 @@ on the graph(route), there are pokemons scattered randomly.
 the gol in this game is the agants should take as many pokemons as they can so that he will get the largest score in the game.
 
 
-#part 1:
+## part 1:
 node_data-implemented by Node,there are node's information key, tag, location weight and info.
 
 edge_data- private class Edge, there are edge's information tag, src node key, dest node key, weight and info.
@@ -28,7 +28,7 @@ isConnected()-Returns true if and only if (iff) there is a valid path from each 
 shortestPathDist- returns the length of the shortest path between src to dest. This function implement by algorithm Dijkstra
 save, load- Saves and load the graph to a file, in JSON format.
 
-part 2:
+## part 2:
 
 Game Client Stracture:
 
