@@ -2,7 +2,7 @@
 
 # The Pokemon Game :
 ![image](https://github.com/guyShimoni/Pokemon-Game/blob/main/area.jpg)
-### In this project (Ex2) we represent an implementation of the game
+In this project (Ex2) we represent an implementation of the game
 "Pokemons game".
 This task is divided into 2 parts, first part, An implementation of a Weighted graph in java, And the second part is the realizating the "Pokemon game" and managing agents for their target Pokemon similar to the Pacman game the game based on Graphs with nodes and edges taht represent the route. 
 on the graph(route), there are pokemons scattered randomly.
