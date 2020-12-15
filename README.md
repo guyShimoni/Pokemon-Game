@@ -43,5 +43,6 @@ Ex2 class- represents a game management system. It enables automatic (efficient)
 
 ## Sources:
 
-* https://www.kaggle.com/ 
+* https://en.wikipedia.org/wiki/Shortest_path_problem
+* https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm
 
