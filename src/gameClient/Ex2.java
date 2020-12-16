@@ -27,22 +27,21 @@ public class Ex2 implements Runnable{
 	private static Arena _ar;
 	private int level = -1;
 	private long id = 0;
+public static void main(String[] args) {
 
-	public static void main(String[] str) {
-
-		if (str.length == 0) {
-			Ex2 ex2 = new Ex2();
-			StartGame log = new StartGame(ex2);
-			log.draw_start_game();
-			log.setVisible(true);
-		} else {
-			Ex2 ex_2 = new Ex2();
-			ex_2.id = Integer.parseInt(str[0]);
-			ex_2.level = Integer.parseInt(str[1]);
-			Thread client = new Thread(ex_2);
-			client.start();
-		}
+	if (args.length == 0) {
+		Ex2 ex2 = new Ex2();
+		StartGame log = new StartGame(ex2);
+		log.draw_start_game();
+		log.setVisible(true);
+	} else {
+		Ex2 ex_2 = new Ex2();
+		ex_2.id = Integer.parseInt(args[0]);
+		ex_2.level = Integer.parseInt(args[1]);
+		Thread client = new Thread(ex_2);
+		client.start();
 	}
+}
 
 
 
