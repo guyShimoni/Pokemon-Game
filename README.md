@@ -1,5 +1,3 @@
-## readme
-
 # The Pokemon Game :
 ![image](https://github.com/guyShimoni/Pokemon-Game/blob/main/doc/area.jpg)
 In this project (Ex2) we represent an implementation of the game
